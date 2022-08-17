@@ -269,7 +269,7 @@ nav .logo {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #9e0038);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -289,7 +289,7 @@ nav .logo {
 }
 .layer a {
     margin-top: 20px;
-    color:#ff004f;
+    color: #ff004f;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
