@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   
+    <title>Portifólio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">L3o</h1>
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portifolio">Portifólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Desenvolvedor</p>
+                <h1>Olá, sou <span>Leonardo</span> Vieira<br>desenvolvedor Web FrontEnd</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre mim</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, libero explicabo.
+                    Nesciunt maxime, accusantium assumenda cum voluptatum deserunt architecto ipsum ullam?
+                    Dolor vitae tempore atque voluptates, vel libero error? Vel.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" id="1" onclick="opentab(skills, this)">Habilidades</p>
+                        <p class="tab-links" id="2" onclick="opentab(edu, this)">Educação</p>
+                        <p class="tab-links" id="3" onclick="opentab(exp, this)">Experiência</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Dev </span><br>Desenvolver interfaces Web/Apps </li>
+                            <li><span>Linguagens</span><br>JavaScript - Java - Python</li>
+                            <li><span>Inteligência Artificial </span><br>Software inteligente</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="edu">
+                        <ul>
+                            <li><span>Superior </span><br>Análise e Desenvolvimento de Sistemas </li>
+                            <li><span>Cursando </span><br>2º Semestre</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exp">
+                        <ul>
+                            <li><span>Dev-3 </span><br>Desenvolver interfaces Web/Apps </li>
+                            <li><span>Apps </span><br>Apps mobile</li>
+                            <li><span>Inteligência Artificial </span><br>Software inteligente</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Tecnologias</h1>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                    <h2>FrontEnd/Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur, at, nemo in dolorum doloremque aspernatur delectus vitae voluptatibus nam est numquam corporis nostrum quisquam optio harum cumque. Molestias, veniam?</p>
+                    <a href="#">Veja mais</a>
+                </div>
+                <div>
+                    <i class="bi bi-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur, at, nemo in dolorum doloremque aspernatur delectus vitae voluptatibus nam est numquam corporis nostrum quisquam optio harum cumque. Molestias, veniam?</p>
+                    <a href="#">Veja mais</a>
+                </div>
+                <div>
+                    <i class="bi bi-cpu-fill"></i>
+                    <h2>BackEnd/AI</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur, at, nemo in dolorum doloremque aspernatur delectus vitae voluptatibus nam est numquam corporis nostrum quisquam optio harum cumque. Molestias, veniam?</p>
+                    <a href="#">Veja mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portifolio Section -->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">Trabalhos</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/img/work-1.png" alt="" >
+                    <div class="layer">
+                        <h3>Aplicativo em midia social</h3>
+                        <p>O app conecta te conecta com pessoas talentosas de todo o mundo.
+                            Baixe agora na google play
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="./assets/img/work-2.png" alt="" >
+                    <div class="layer">
+                        <h3>Facil de usar</h3>
+                        <p>App com sua cara, feito para você.
+                            Baixe agora na google play
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/img/work-3.png" alt="" >
+                    <div class="layer">
+                        <h3>Aplicativo em midia social</h3>
+                        <p>O app conecta te conecta com pessoas talentosas de todo o mundo.
+                            Baixe agora na google play
+                        </p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
