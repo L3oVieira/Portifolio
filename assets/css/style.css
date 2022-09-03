@@ -86,9 +86,21 @@ nav .logo {
 
 .header-text{
     margin-top: 22%;
-    margin-left: 5%;
     font-size: 34px;
+    transition: ease-in-out 2s;
+    animation: header-text forwards 3s;
 }
+
+/* 
+   Animação da Home
+*/
+
+@keyframes header-text {
+    0% {margin-left: 0%}
+    100% {margin-left: 5%}
+}
+
+
 .header-text h1{
     font-size: 48px;
     font-weight: 800;
